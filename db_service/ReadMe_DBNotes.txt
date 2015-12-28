@@ -1,0 +1,1 @@
+The lib folder must be where the DB functionallity is called. In this case, the the whole process starts at API_Gateway, once the services are redirected to other services and loaded at the same time the API_Gateway is loaded. So, it is necessary for that library to live at root level for this case. 
